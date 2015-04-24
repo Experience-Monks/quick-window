@@ -12,6 +12,8 @@ var win = quickWindow( {
   container: container
 });
 
+var win2 = quickWindow();
+
 var toolBar = quickToolbar({
   container: win.container
 });
