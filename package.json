@@ -1,0 +1,32 @@
+{
+  "name": "quick-window",
+  "version": "1.0.0",
+  "description": "Create a quick \"window\" you can drag content around the window with",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "apply-selector-and-css": "^1.0.4"
+  },
+  "devDependencies": {
+    "quick-toolbar": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "quick,rapid,prototype,window,drag"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jam3/quick-window.git"
+  },
+  "homepage": "https://github.com/jam3/quick-window",
+  "bugs": {
+    "url": "https://github.com/jam3/quick-window/issues"
+  }
+}
