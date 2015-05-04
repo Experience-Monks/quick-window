@@ -41,6 +41,9 @@ module.exports = function(options) {
   });
 
   return {
-    container: container
+    container: container,
+    destroy: function() {
+      container.parentNode.removeChild(container);
+    }
   };
 };
